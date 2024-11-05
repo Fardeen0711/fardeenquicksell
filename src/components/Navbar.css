@@ -1,0 +1,41 @@
+/* styles.css */
+.navbar {
+    display: flex;
+    justify-content: start;
+    padding: 10px 20px;
+    background-color: #f9fafb; /* Light gray similar to PNG */
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.dropdown-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.dropdown-menu label {
+    font-size: 14px;
+    color: #666;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dropdown-menu select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
